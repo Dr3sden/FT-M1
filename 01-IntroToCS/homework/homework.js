@@ -34,7 +34,7 @@ function DecimalABinario(num) {
     var residuo = num%2;
     //devuelve el entero mas cercano
     num = Math.floor(num/2);
-    //se pasa a un arreglo
+    //se pasa a un arreglod
     contenedor.push(residuo);
   }
   //se invierte el arreglo
